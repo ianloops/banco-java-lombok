@@ -9,13 +9,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 @ToString
+@Getter
 public class Banco {
-    @Getter private final String nome;
-    @Getter private final List<Conta> contas = new LinkedList<>();
+    private final String nome;
+    private final List<Conta> contas = new LinkedList<>();
 
     public Banco(String nome) {
         this.nome = nome;
     }
-
 
 }
