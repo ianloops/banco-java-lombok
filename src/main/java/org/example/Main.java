@@ -6,8 +6,7 @@ import org.example.clientes.ClientePJ;
 import org.example.contas.Conta;
 import org.example.contas.ContaCorrente;
 import org.example.contas.ContaPoupanca;
-import org.junit.Before;
-import org.junit.jupiter.api.BeforeEach;
+
 
 import java.time.LocalDate;
 

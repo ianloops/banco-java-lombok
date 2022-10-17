@@ -1,6 +1,5 @@
 package org.example;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.ToString;
 import org.example.contas.Conta;
